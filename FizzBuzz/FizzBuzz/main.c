@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
     
     for(int i = 1; i < 101; i++){
         
-        if((i % 15)==0){
+        if((i % 15)==0){ //checking if number is a multiple of both 3 & 5 
             printf("FizzBuzz\n");
             
         }else if((i % 3)==0){
